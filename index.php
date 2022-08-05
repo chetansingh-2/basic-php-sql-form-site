@@ -78,6 +78,9 @@ if(isset($_POST['name'])){
         </form>
 
     </div>
+  <footer>
+    &copy; created by chetan &hearts;
+    </footer>
     <script src="index.js"></script>
     
    
