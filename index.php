@@ -4,7 +4,7 @@ if(isset($_POST['name'])){
  
   $server="localhost";
   $username="root";
-  $password="";
+  $password="root123";
   $dbname= "us_trip";
 
   $con= mysqli_connect($server, $username, $password, $dbname);
@@ -67,7 +67,7 @@ if(isset($_POST['name'])){
      ?>
         
 
-        <form action="index.php" method="post">
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <input type="text" name="name" id="name" placeholder="Enter your name">
             <input type="text" name="class" id="class" placeholder="Enter your class">
             <input type="text" name="gender" id="gender" placeholder="Enter your gender">
