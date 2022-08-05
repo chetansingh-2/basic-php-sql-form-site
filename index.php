@@ -5,8 +5,9 @@ if(isset($_POST['name'])){
   $server="localhost";
   $username="root";
   $password="";
+  $dbname= "us_trip"
 
-  $con= mysqli_connect($server, $username, $password);
+  $con= mysqli_connect($server, $username, $password, $dbname);
 
   if(!$con){
     die("connnection to the database failed due to ".mysqli_connect_error());
@@ -78,8 +79,9 @@ if(isset($_POST['name'])){
         </form>
 
     </div>
-  <footer>
-    &copy; created by chetan &#9829;
+
+    <footer>
+    &copy; created by chetan &hearts;
     </footer>
     <script src="index.js"></script>
     
