@@ -79,7 +79,7 @@ if(isset($_POST['name'])){
 
     </div>
   <footer>
-    &copy; created by chetan &hearts;
+    &copy; created by chetan &#9829;
     </footer>
     <script src="index.js"></script>
     
