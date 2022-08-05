@@ -65,7 +65,11 @@ img{
     font-style: italic;
     font-size: 2rem;
 }
-
+footer{
+    
+    color:black;
+    text-align: center;
+}
 @media only screen and (max-width: 360px) {
 
     /* body{
